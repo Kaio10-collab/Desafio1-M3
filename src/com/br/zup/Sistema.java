@@ -4,25 +4,25 @@ import java.util.Arrays;
 
 /**
  * Sistema que vai gerar o sorteio do caça níquel.
- * @author kaio.moraes
+ *
  */
 
 public class Sistema {
 
-    private Pecas[] slots;
+    private Pecas[] jogada;
 
     public Sistema() {
-        this.slots = new Pecas[3];
-        for (int x=0; x <this.slots.length; x++) {
-            this.slots[x] = new Pecas();
+        this.jogada = new Pecas[3];
+        for (int x = 0; x <this.jogada.length; x++) {
+            this.jogada[x] = new Pecas();
         }
     }
-    public Pecas[] getSlots() {
-        return slots;
+    public Pecas[] getJogada() {
+        return jogada;
     }
 
     public String toString() {
-        String modelo = Arrays.toString(slots);
+        String modelo = Arrays.toString(jogada);
         return modelo;
     }
 }

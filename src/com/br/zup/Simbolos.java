@@ -2,7 +2,6 @@ package com.br.zup;
 
 /**
  * Definição dos símbolos do jogo.
- * @author kaio.moraes
  */
 
 public enum Simbolos {

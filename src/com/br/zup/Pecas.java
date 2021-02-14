@@ -1,5 +1,9 @@
 package com.br.zup;
 
+/**
+ * Definir onde pega os símbolos.
+ */
+
 import java.util.Random;
 
 public class Pecas {
@@ -7,6 +11,7 @@ public class Pecas {
     private Simbolos opcao;
 
     public Pecas(){
+
         int frutas = Simbolos.values().length;
         int numerAleatorio = new Random().nextInt(frutas);
         this.opcao = Simbolos.values()[numerAleatorio];
